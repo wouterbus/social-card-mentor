@@ -24,8 +24,11 @@ container.style.margin = '0 auto'
 container.style.padding = '30px'
 container.style.borderRadius = '15px'
 
-var image = document.createElement('div')
-image.innerHTML = `<img style="border-radius:50%;padding-bottom:15px;" width="75" height="75" src="/assets/images/avatar-jessica.jpeg" alt="">`
+var image = document.createElement('img')
+image.src = '/assets/images/avatar-jessica.jpeg'
+image.width = 75
+image.height = 75
+image.style.borderRadius = '50%'
 
 var heading = document.createElement('h1')
 heading.textContent = 'Jessica Randal'
