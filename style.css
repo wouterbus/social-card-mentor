@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:768px) {
+    body {
+        height: inherit!important;
+    }
+}
+
+:focus {
+    outline: 0;
+}
+
+.button-styles {
+    width: 100%;
+    padding: 17px;
+    background-color: #333;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.button-styles:hover {
+    background-color: #BDF626;
+    color: #141414;
+}
+
+::placeholder {
+    color: white;
+    opacity: .2;
+}
+
+label {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+input {
+    padding: 20px;
+    background-color: #202124;
+    border: none;
+    width: 47%;
+    font-family: inherit;
+    color: #4D83F4;
+    font-size: 16px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: 1px solid #4D83F4;
+}
+
+.icon-left {
+    position: relative;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-field-icon-left {
+    padding-left: 60px;
+    background-image: url(/assets/images/mastercard.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 20px;
+}
+
+.submit-btn {
+    width: 100%;
+    background: rgb(77,131,244);
+    background: linear-gradient(45deg, rgba(77,131,244,1) 0%, rgba(189,123,255,1) 100%);
+    border: none;
+    color: white;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+}
