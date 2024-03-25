@@ -25,7 +25,7 @@ container.style.padding = '30px'
 container.style.borderRadius = '15px'
 
 var image = document.createElement('img')
-image.src = '/assets/images/avatar-jessica.jpeg'
+image.src = 'https://randomuser.me/api/portraits/med/women/18.jpg'
 image.width = 75
 image.height = 75
 image.style.borderRadius = '50%'
