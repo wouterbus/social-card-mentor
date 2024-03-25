@@ -1,5 +1,5 @@
 const body = document.getElementsByTagName('body')
-document.body.style.backgroundColor = 'red'
+document.body.style.backgroundColor = '#141414'
 document.body.style.display = 'flex'
 document.body.style.textAlign = 'center'
 document.body.style.justifyContent = 'center'
